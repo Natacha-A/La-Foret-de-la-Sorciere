@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 530e556d4407947dcae7102ff497587d, type: 3}
+  m_Name: btn_commencer
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"title":null,"summary":null,"pan":{"x":68.0,"y":60.0},"zoom":1.0,"elements":[{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Start","summary":null,"pan":{"x":438.7873,"y":-386.1714},"zoom":0.9,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":-215.0},"guid":"3451d57a-5d97-4690-81b9-325335478e2b","$version":"A","$type":"Unity.VisualScripting.OnEnterState"},{"coroutine":false,"defaultValues":{},"position":{"x":-161.0,"y":-38.0},"guid":"f18f4031-baf8-4cf5-b2a0-577e2fbee1fc","$version":"A","$type":"Unity.VisualScripting.Update"},{"coroutine":false,"defaultValues":{},"position":{"x":-205.0,"y":145.0},"guid":"efced54f-0908-44c4-9485-8177282df33a","$version":"A","$type":"Unity.VisualScripting.OnExitState"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-218.0,"y":-496.0},"guid":"548ff5d6-bb18-4c3d-8a4e-c05226f9191d","$version":"A","$type":"Unity.VisualScripting.OnButtonClick","$id":"19"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.Int32"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneBuildIndex":{"$content":1,"$type":"System.Int32"}},"position":{"x":11.0,"y":-494.0},"guid":"126fb51a-dbdf-436f-b74a-d23070d630db","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"21"},{"sourceUnit":{"$ref":"19"},"sourceKey":"trigger","destinationUnit":{"$ref":"21"},"destinationKey":"enter","guid":"5546649c-6678-44a4-b771-4d86a74c36b0","$type":"Unity.VisualScripting.ControlConnection"},{"position":{"xMin":-237.0,"yMin":-540.0,"xMax":407.0,"yMax":-251.0},"label":"Changer
+      vers la sc\u00e8ne du jeu et cacher le panel lost","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"a95e8fc0-ee41-4a12-9c7d-3cd62e272b8d","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}},"isStart":true,"position":{"x":-86.0,"y":-15.0},"width":170.0,"guid":"73e0f924-694b-4b00-9e51-fc54405901cd","$version":"A","$type":"Unity.VisualScripting.FlowState"}],"$version":"A"}}'
+    _objectReferences: []
